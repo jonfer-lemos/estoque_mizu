@@ -1,0 +1,48 @@
+body {
+    background-color: rgba(251, 251, 251, 0.911);
+    
+}
+
+#inputs-user{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 50px 10px 50px;
+    background-color: rgba(0, 255, 255, 0);
+
+}
+
+#inputs-produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 50px 10px 50px;
+    font-size: large;
+    
+    
+    background-color: rgba(143, 145, 158, 0.582);
+
+}
+
+label{
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+
+#tabela-produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    
+
+}
+
+tr{
+    text-align: center;
+}
+
+

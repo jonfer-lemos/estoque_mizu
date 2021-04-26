@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 80%;
+        }
+
+        table,
+        th,
+        td {
+
+            border: 1px solid black;
+        }
+
+        td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <main>
+        <br>
+        <div>
+            <h3>Olá uma R.A foi gerada: #id $id; </h3>
+        </div>
+
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Integrante</th>
+                        <th>Matrícula</th>
+                        <th>O.S/S.S</th>
+                        <th>Tag</th>
+                        <th>Motivo</th>
+                        <th>Setor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>$nome</td>
+                        <td>$mat</td>
+                        <td>$osss</td>
+                        <td>$tag</td>
+                        <td>$motivo</td>
+                        <td>$setor</td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+
+        <br><hr>
+       
+        <div>
+            <h4>Produtos Requisitados:</h4>
+            <table>
+                
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Descrição</th>
+                        <th>Quntidade</th>
+                        <th>Und Med</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>$nome</td>
+                        <td>$mat</td>
+                        <td>$osss</td>
+                        <td>$tag</td>
+                    </tr>
+                   
+
+                </tbody>
+            </table>
+<strong></strong>
+        </div>
+    </main>
+
+</body>
+
+</html>
+
+
+
+
+<!-- 
+    lixão
+
+
+
+// dados do integrante
+var matriculaIntegrante = $this.find("input[name='mat']").val(),
+nomeIntegrante = $this.find("input[name=['nome']").val(),
+osssIntegrante = $this.find("input[name=['osss']").val(),
+tagIntegrante = $this.find("input[name=['tag']").val(),
+motivoIntegrante = $this.find("input[name=['motivo']").val(),
+setorIntegrante = $this.find("select[name=['setor']").val();
+
+'<div id="dados-itegrante">' +
+    '<input type="hidden" name="matriculaintegrante" value="' + matriculaIntegrante + '" />' +
+    '<input type="hidden" name="nomeintegrante" value="' + nomeIntegrante + '" />' +
+    '<input type="hidden" name="osssintegrante" value="' + osssIntegrante + '" />' +
+    '<input type="hidden" name="tagintegrante" value="' + tagIntegrante + '" />' +
+    '<input type="hidden" name="motivointegrante" value="' + motivoIntegrante + '" />' +
+    '<input type="hidden" name="setorintegrante" value="' + setorIntegrante + '" />'+
+    '</div>'
+
+
+
+
+    // function mandaVer() {
+        //     var matriculaId = document.getElementById("mat").val,
+        //         nomeId = document.getElementById("nomeinter").val,
+        //         osssId = document.getElementById("osss").val,
+        //         tagId = document.getElementById("tagequip").val,
+        //         motivoId = document.getElementById("motivo").val,
+        //         setorId = document.getElementById("setor").val;
+        //     if (matriculaId == '' || nomeId == '' || osssId == '' || tagId == '' || motivoId == '' || setorId == '') {
+        //         alert("Preencha todos os campos!");
+        //     }
+           
+        
+        
+        // } -->
+
+
+
+
+
+
+        <!-- '<div id="remover-inputs' + [inArray++] + '">' +
+            '<input type="hidden" name="codigo' + [nameCodigo++] + '" value="' + codigo + '" />' +
+            '<input type="hidden" name="descricao' + [nameDescricao++] + '" value="' + descricao + '" />' +
+            '<input id="qdteproduto' + [qdteproduto++] + '" type="hidden" name="qdte' + [nameQdte++] + '" value="' + qdte + '" />' +
+            '<input type="hidden" name="und' + [nameUnd++] + '" value="' + und + '" />';
+        '</div>' -->
+
+
+
+        <!-- '<div id="remover-inputs' + [inArray++] + '">' +
+            '<input type="hidden" name="codigo[]" value="' + codigo + '" />' +
+            '<input type="hidden" name="descricao[]" value="' + descricao + '" />' +
+            '<input id="qdteproduto' + [qdteproduto++] + '" type="hidden" name="qdte[]" value="' + qdte + '" />' +
+            '<input type="hidden" name="und[]" value="' + und + '" />';
+        '</div>' -->
